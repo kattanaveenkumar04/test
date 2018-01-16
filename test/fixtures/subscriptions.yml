@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  included_data_balance: 9.99
+  included_credit_balance: 9.99
+  included_rollover_credit_balance: 9.99
+  included_rollover_data_balance: 9.99
+  included_international_talk_balance: 9.99
+  expiry_date: 2018-01-16 01:32:02
+  auto_renewal: false
+  primary_subscription: false
+
+two:
+  included_data_balance: 9.99
+  included_credit_balance: 9.99
+  included_rollover_credit_balance: 9.99
+  included_rollover_data_balance: 9.99
+  included_international_talk_balance: 9.99
+  expiry_date: 2018-01-16 01:32:02
+  auto_renewal: false
+  primary_subscription: false

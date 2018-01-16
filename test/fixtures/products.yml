@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  included_data: MyString
+  included_credit: MyString
+  included_international_talk: MyString
+  unlimited_text: false
+  unlimited_talk: false
+  unlimited_international_text: false
+  unlimited_international_talk: false
+  price: 9.99
+
+two:
+  name: MyString
+  included_data: MyString
+  included_credit: MyString
+  included_international_talk: MyString
+  unlimited_text: false
+  unlimited_talk: false
+  unlimited_international_text: false
+  unlimited_international_talk: false
+  price: 9.99

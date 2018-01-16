@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  msn: 1
+  credit: 9.99
+  credit_expiry: 2018-01-16 01:29:14
+  data_usage_threshold: false
+
+two:
+  msn: 1
+  credit: 9.99
+  credit_expiry: 2018-01-16 01:29:14
+  data_usage_threshold: false

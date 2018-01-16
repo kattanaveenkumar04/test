@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  payment_type: MyString
+  unbilled_charges: 9.99
+  next_billing_date: 2018-01-16 01:54:02
+  title: MyString
+  first_name: MyString
+  last_name: MyString
+  date_of_birth: MyString
+  contact_number: MyString
+  email: MyString
+  email_verified: false
+  email_subscription_status: false
+
+two:
+  payment_type: MyString
+  unbilled_charges: 9.99
+  next_billing_date: 2018-01-16 01:54:02
+  title: MyString
+  first_name: MyString
+  last_name: MyString
+  date_of_birth: MyString
+  contact_number: MyString
+  email: MyString
+  email_verified: false
+  email_subscription_status: false

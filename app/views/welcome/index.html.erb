@@ -1,0 +1,14 @@
+<div class="index">
+<h2>Please Enter your MSN number</h2>
+
+<%= form_tag verify_service_path do %>
+    <%= label :service, :msn_number %>
+    <%= text_field :service, :msn %>
+    <%= submit_tag("Sign in", class: "btn btn-large btn-primary") %><br /><br />
+    <div class="error">
+      <% unless flash[:error].blank?%>
+          <%= flash[:error] %>
+      <% end %>
+    </div>
+<% end %>
+</div>

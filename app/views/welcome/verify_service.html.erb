@@ -1,0 +1,25 @@
+<h1 class="success heading"> Welcome to MIVI</h1>
+<div class="info">
+  <h2 class="success">My Information</h2>
+<p><b>Name:</b> <%= "#{@account.first_name } #{@account.last_name }" %></p>
+<p><b>Email:</b><%= @account.email%></p>
+<p><b>Contact Number:</b><%= @account.contact_number%></p>
+<hr>
+<h2 class="success"> Subscription Details</h2>
+<% unless @service.blank? %>
+    <%@service.subscriptions.each do |subscription| %>
+        <p> <b>Included Data balance:</b> <%= subscription.included_data_balance%></p>
+        <p><b>Included Credit balance:</b> <%= subscription.included_credit_balance%></p>
+        <p><b>Included Rollover Data balance:</b> <%= subscription.included_rollover_credit_balance%></p>
+        <p><b>Included Rollover Data balance:</b> <%= subscription.included_rollover_data_balance%></p>
+        <p><b>Expiry Date:</b> <%= subscription.expiry_date%></p>
+        <hr>
+        <h2 class="success">Related Product Details</h2>
+        <%subscription.products.each do |product| %>
+            <p> <b>Product Name</b>    <%=product.name %></p>
+            <p> <b>Price </b>    <%= product.price%></p>
+        <% end %>
+    <% end %>
+
+<% end %>
+</div>
